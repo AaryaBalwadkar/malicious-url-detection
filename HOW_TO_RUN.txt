@@ -1,0 +1,32 @@
+MALICIOUS URL DETECTION — HOW TO RUN (1 page)
+Group 19, Symbiosis Institute of Technology, 2026-27
+GitHub: https://github.com/YOUR-USERNAME/malicious-url-detection
+        (replace with real link in Phase 2, then re-zip)
+
+FASTEST DEMO (2 minutes, no training):
+1. Unzip MaliciousURLDetection_Submission.zip
+2. Open terminal in that folder
+3. python -m venv .venv
+4. .\.venv\Scripts\pip.exe install -r requirements.txt
+5. .\.venv\Scripts\python.exe src\demo_predict.py --model XGBoost --row 0
+   Expected: True label and Predicted label printed + probabilities.
+   Or double-click run_demo.bat in Windows Explorer.
+
+FULL RETRAIN (5 minutes, reproduces all results):
+  .\.venv\Scripts\python.exe src\train.py
+  Or double-click run_train.bat.
+  Outputs: results/metrics.csv, results/*.txt, models/*.joblib, figures/*.png
+
+PREDICT OWN CSV:
+  .\.venv\Scripts\python.exe src\predict_csv.py --input data\ISCX-URL2016_All.csv --model XGBoost --output predictions.csv
+
+WHAT IS WHERE:
+  src/ = source code (train, demo_predict, predict_csv, data_utils)
+  run_*.bat = double-click Windows executables
+  models/ = pre-trained models (so demo works without training)
+  results/ + figures/ = proof of execution (metrics, confusion matrices, ROC)
+  report/ = case-study PDF/DOCX + IEEE paper PDF
+  data/ = dataset CSV (11 MB, included so no internet needed)
+
+EXE NOTE: Python has no .exe. run_*.bat are the Windows executables,
+models/*.joblib are the runnable model artefacts. See README §6.

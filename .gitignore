@@ -1,0 +1,32 @@
+# Python virtual env (never commit)
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS / editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# LaTeX build junk (report source folder, if added to git)
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# NOTE FOR GITHUB:
+# models/*.joblib (67 MB total, RandomForest alone ~57 MB) and
+# data/ISCX-URL2016_All.csv (11 MB) are INCLUDED in the ZIP submitted
+# to the professor, but if `git push` warns about large files, either:
+#   1) keep them (GitHub allows files < 100 MB), or
+#   2) use Git LFS:
+#        git lfs install
+#        git lfs track "models/*.joblib" "data/*.csv"
+#        git add .gitattributes
+#   Then re-commit. Regenerating is also possible: run src/train.py.
