@@ -3,8 +3,7 @@
 **Group 19 — Symbiosis Institute of Technology, Academic Year 2026–27**
 **Members:** Aarya Balwadkar, Afifa Bintul Hasan, Aparna Nair, Eccha Bansal
 
-**GitHub repository:** https://github.com/YOUR-USERNAME/malicious-url-detection
-> ⚠️ Replace this link with your real repo URL after Phase 2 (see "GitHub upload guide" given separately).
+**GitHub repository:** https://github.com/AaryaBalwadkar/malicious-url-detection
 > The ZIP submitted to the professor already contains everything in this repo plus
 > `data/`, `models/` and `report/` so it runs offline.
 
@@ -171,11 +170,10 @@ REM -> dist\demo_predict.exe (needs models\ + data\ next to it)
 Public repo (source + results + figures + report; models/data also present —
 see `.gitignore` note about Git LFS if push warns on the 57 MB RandomForest file):
 
-**https://github.com/YOUR-USERNAME/malicious-url-detection**
+**https://github.com/AaryaBalwadkar/malicious-url-detection**
 
-Step-by-step upload guide was followed separately (Phase 1 instructions).
-After you create the repo, replace `YOUR-USERNAME` above with the real URL
-and re-zip before uploading to the professor portal.
+This README is the submission version — re-zip this folder before uploading
+to the professor portal.
 
 ---
 

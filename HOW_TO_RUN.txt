@@ -1,7 +1,6 @@
 MALICIOUS URL DETECTION — HOW TO RUN (1 page)
 Group 19, Symbiosis Institute of Technology, 2026-27
-GitHub: https://github.com/YOUR-USERNAME/malicious-url-detection
-        (replace with real link in Phase 2, then re-zip)
+GitHub: https://github.com/AaryaBalwadkar/malicious-url-detection
 
 FASTEST DEMO (2 minutes, no training):
 1. Unzip MaliciousURLDetection_Submission.zip
